@@ -1,0 +1,12 @@
+schema: "classroom50/repo-config/v1"
+classroom: "frontend-programacion-iv"
+assignment: "migrar-sus-repositorios-a-este-repo"
+owner:
+  username: "WillianC17"
+  id: 331085364
+  accepted_at: "2026-09-19T00:11:27Z"
+source:
+  owner: "Frontend-programacion-IV-UNIAJC"
+  owner_id: 329762587
+  repo: "Frontendtemplate.classroom50"
+  branch: "main"

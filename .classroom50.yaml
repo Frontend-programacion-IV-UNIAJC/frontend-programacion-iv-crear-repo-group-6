@@ -1,0 +1,7 @@
+schema: "classroom50/repo-config/v1"
+classroom: "frontend-programacion-iv"
+assignment: "crear-repo"
+owner:
+  username: "WillianC17"
+  id: 331085364
+  accepted_at: "2026-09-19T01:26:18Z"

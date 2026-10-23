@@ -1,1 +1,4 @@
-# frontend-programacion-iv-crear-repo-group-6
+# AnimeIndex
+
+# Willian Castillo Usuario 1
+# harold Melo Usuario 2

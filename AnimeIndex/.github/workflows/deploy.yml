@@ -8,20 +8,23 @@ permissions:
   contents: read
   pages: write
   id-token: write
- 
+
 jobs:
-  construir:
+  build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: withastro/action@v3  
+      - uses: withastro/action@v3
         with:
           node-version: 22
 
-  publicar:  
-    needs: construir
+  deploy:
+    needs: build
     runs-on: ubuntu-latest
-    environment:  
+    environment:
       name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - uses: actions/checkout@v4
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

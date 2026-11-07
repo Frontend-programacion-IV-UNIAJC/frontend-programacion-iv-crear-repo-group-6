@@ -1,0 +1,64 @@
+/*Sistema de diseño de AnimeIndex*/
+:root {
+     /*color de la marca*/
+    --color-marca: #eaf3f1;
+    --color-marca-oscuro: #ff0000b5;
+    --color-marca-suave: #ec5e7d;
+    --color-marca-borde: #ff0000b5;
+
+     /*neutros calidos*/
+
+    --color-texto: #000000;
+    --color-texto-suave: #00ffff;
+    --color-texto-tenue: #7c7a7a;
+    --color-fondo: #2c2c2c;
+    --color-lienzo: #000000;
+    --color-superficie:#ffd1d1;
+    --color-borde: #ff0000b5;
+    --color-borde: #ff0000b5;
+
+    /*color estados*/
+    --color-error: #ff0000b5;
+    --color-error-suave: #ff0000b5
+    --color-exito: #000000b5;
+    --color-exito-suave: #00ff00b5;
+
+    /*tipografia*/
+    --fente: "iowan Old style", "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    --fuente-texto: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --texto-xxl:2.7rem;
+    --texto-xl:2rem;
+    --texto-l:1.5rem;
+    --texto-m:1.125rem;
+    --texto-base:1rem;
+    --texto-s:0.875rem;
+    --texto-xs:0.75rem;
+    
+    /*espaciado*/
+    --esp-1: 0.25rem;
+    --esp-2: 0.5rem;
+    --esp-3: 1rem;
+    --esp-4: 1.5rem;
+    --esp-5: 2rem;
+    --esp-6: 3rem;
+    --esp-7: 4.5rem;
+
+    /*formas*/
+    --radio-s: 8px;
+    --radio-m: 14px;
+    --radio-l: 22px;
+    --radio-pildora: 999px;
+
+    /*elevacion*/
+    --sombre-1: 0 1px 2px rgba(36, 27, 22, 0.06);
+    --sombre-2: 0 6px 20px -8px rgba(36, 27, 22, 0.1);
+    --sombre-3: 0 18px 40px -16px rgba(36, 27, 22, 0.1);
+
+    /*medidadas*/
+    --ancho-maximo: 1180px;
+    --ancho-lectura: 68ch;
+    --transcion: 160ms ease;
+
+
+
+}
